@@ -5,54 +5,103 @@ output: html_document
 
 ## Project title
 
-Give your project a concise, interesting title that summarizes the entirety of your project
+Life Expectancy and Predicting Factors
 
 ### Authors
 
-Names of your team members
+Eun Be Cha, Zihan Lin, Haruon Salah, Nick Anderson,Stefani Chan.
 
 ### Date
 
-Winter 2022
+Summer 2023, August 6, 2023
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+Our main questions is what are the main predicting factors that predict life expectancy. This question is important because we want to understand how drinking alcohol, schooling, and immunization impacts the life expectancy. To address this question we will compare the relationship between different data sets to find the correlation between different factors and life expectancy.
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Life Expectancy
+
+Quality of Life
+
+Lifestyle
 
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+1. Introduction  
+
+Our main goal of the project is to explore many factors that influence life expectancy, and there relationship between each other. Life expectancy is an important indicator of the overall health and well-being of a population. By deeply understand factors, we can provide valuable insights for policy makers and public health experts to formulate effective intervention to improve public life expectancy. 
+
+Our Research question:
+
+1. What are the predicting variables that affect life expectancy? - Main question
+
+2. Do level of education affect the life expectancy ? If so how?
+
+3. Does Life Expectancy have positive or negative relationship with drinking alcohol?
+
+4. Does population density affect life expectancy ?
+
+5.  How does population density affect life expectancy?
+
+We are motivate by this question because we are expecting people to have longer and healthier life. In order to figure out the key answer, we have to have deep understanding of those factors that influencing life expectancy, and provide those information to official organization such as world health organization, policy makers, and Centers for Disease Control and Prevention. Those question are important, because studying life expectancy provides essential insights into the health status of populations, the effectiveness of health interventions, and the socio-economic conditions of different regions. It serves as a fundamental tool for evidence-based decision-making, resource allocation, and long-term planning to promote better health and well-being for people across the globe.
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+Life expectancy is a crucial indicator of a population's health and quality of life. This research aims to explore the main predicting variables that impact life expectancy, with a focus on factors such as education, drinking alcohol, and population density. Here are some related work in this space. "Association between Life Expectancy and Alcohol Consumption: A Global Analysis of 28 Countries" https://www.nature.com/articles/s41598-022-11427-x The research published in the article investigates the association between alcohol consumption and life expectancy across 28 countries. The study aims to shed light on the impact of alcohol use on population health outcomes and provide valuable insights for policymakers and public health experts. "Global, regional, and national life expectancy, all-cause mortality, and cause-specific mortality for 249 causes of death, 1980-2015: a systematic analysis for the Global Burden of Disease Study 2015." https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)31012-1/fulltext This study offers a thorough examination of trends in death by cause and life expectancy around the world. It draws attention to numerous aspects, such as socioeconomic circumstances, lifestyle decisions, and access to healthcare, and its impact on how long people live in different locations and over various periods of time. "Want to Live Longer? Stay in School, Study Suggests" https://news.yale.edu/2020/02/20/want-live-longer-stay-school-study-suggests Researchers at Yale University investigated the relationship between education degree and life expectancy. The results show a positive relationship between education and life expectancy, with people with greater levels of education having a tendency to live longer.
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
-Who collected the data?  
-How was the data collected or generated?  
-Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+The data is from Kaggle. The data is collected by The Global Health Observatory (GHO) data repository under World Health Organization (WHO) and the corresponding economic data was collected from the United Nations website with the help of Deeksha Russell and Duan Wang. The data was collected from public data released by GHO and WHO. The data was observed from a time span of 15 years between (2000 - 2015) for 193 countries. And, only the critical factors were taken into account and represented. The data was collected for the purpose of health data analysis. Furthermore, it was collected to determine the relationship between life expectancy and different determining factors including the effects of immunization and the human development index which was not taken into account in the past. It was difficult to find data for some countries; therefore, those countries were excluded from the data. There are 2,938 observations (rows). There are 22 different features (columns). An ethical and power question that this data set raises is the exclusion of smaller, less-known countries. Not considering these countries causes the data set to be somewhat skewed. Moreover, this exclusion results in the exclusion of their health analysis, potentially hindering their improvement of health. Some of the possible limitations of this data are that it was taken during the span of only 15 years, 8 years ago. With how rapidly lifestyle changes, this data may not be as relevant today as it was 8 years ago.
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+For technologists, understanding the factors that influence life expectancy could guide the development of health-focused technologies. For instance, if education and alcohol consumption are significant predictors, tech developers could create apps to encourage continuing education or moderate drinking habits. They could also build AI models to predict individuals' life expectancy based on their lifestyle factors, helping people understand the impact of their choices on their lifespan.
+
+Designers in the field of public health campaigns might use this information to craft targeted, effective messages. If population density is found to have a significant impact, designers could focus on creating materials to educate people on health risks and benefits associated with urban or rural living.
+
+For policymakers, these insights could be critical for shaping public health policies. For example, if our research proves a strong correlation between immunization and increased life expectancy, policymakers could be compelled to increase funding for vaccination programs. They could also enforce laws to regulate alcohol consumption or increase resources devoted to education, based on the factors we identify as having the most significant impact on life expectancy. Thus, our findings could guide evidence-based decisions and contribute to promoting healthier, longer lives for the population.
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+There is missing data for some countries that might limit the scope of information for specific nations. The dataset that we are working with has missing data for Hepatitis B and GDP. For less known/smaller countries there is missing data leading to certain countries to be excluded from the dataset since there was not enough data on them. Furthermore, there might also be limitations within the categories since there could be more factors. Most of the Life Expectancy data was related mainly to health issues which leaves out other potential death factors. A challenge that might occur is not being able to see mortalities between males and females. Additionally, income gaps between the wealthy and the poor. It would also be difficult to locate where communities within countries have the most poverty rate as well as mortality rate. There is a column for schooling, however, there is no value for the amount of children that actually get schooling.
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+In 2015, the global average life expectancy was approximately 71.61 years.
+
+The countries with the highest life expectancy were:
+
+-Slovenia
+
+-Denmark
+
+-Chile
+
+-Cyprus
+
+-Japan
+
+Among these:
+
+Chile reported the largest population, while Cyprus had the smallest. None of these countries reported alcohol consumption. The average schooling duration was 16.48 years.
+
+Conversely, countries with the lowest life expectancy included:
+
+-Sierra Leone
+
+-Angola
+
+-Central African Republic
+
+-Chad
+
+-Côte d'Ivoire
+
+For these nations
+
+The average population was about 926,133.5.None reported alcohol consumption.The average duration of schooling was 8.825 years.
 
 ### Table
 
