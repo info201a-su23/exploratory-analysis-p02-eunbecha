@@ -17,6 +17,8 @@ source('chart2.R')
 
 source('chart3.R')
 
+source('chart4.R')
+
 ```
 
 ## Project title
@@ -154,4 +156,14 @@ The chart provides a visual representation of the correlation between GDP and li
 
 ```{r chart_3, fig.width=12}
 chart_3
+```
+
+### Chart 4
+
+##### Life expectancy vs Infants deaths
+
+To compare life expectancy and infant deaths for each of the ten countries given, we've created a scattered plot. Each data point on the plot corresponds to a country, with its position along the x-axis representing infant deaths and its position along the y-axis representing the number of life expectancy. Countries with higher life expectancy tend to have lower numbers of infant deaths. This comparison suggests that countries with better healthcare systems and living conditions tend to experience fewer infant deaths.
+
+```{r chart_4, fig.width=12}
+chart_4
 ```
