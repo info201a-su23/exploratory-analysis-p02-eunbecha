@@ -10,3 +10,4 @@ chart_2 <- ggplot(top_bottom_countries, aes(x = Country, y = Life.expectancy, fi
   labs(title = "Life Expectancy in Countries with Highest and Lowest Values in 2015",
        x = "Country", y = "Life Expectancy") +
   theme_minimal()
+
