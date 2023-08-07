@@ -3,6 +3,17 @@ title: "Exploratory Analysis"
 output: html_document
 ---
 
+```{r setup, include=FALSE}
+library(ggplot2)
+library(dplyr)
+
+data_life <- read.csv("https://raw.githubusercontent.com/info201a-su23/exploratory-analysis-p02-eunbecha/main/Life%20Expectancy%20Data.csv?token=GHSAT0AAAAAACEYE7NU7DNYGQS6NMTEVUUGZGQJ2JA")
+
+
+source('chart1.R')
+
+```
+
 ## Project title
 
 Life Expectancy and Predicting Factors
@@ -117,7 +128,8 @@ Describe why you chose this chart and what information it reveals
 
 Here's an example of how to run an R script inside an RMarkdown file:
 
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+```{r chart_1, fig.width=12}
+chart_1
 ```
 
 ### Chart 2
