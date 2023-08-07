@@ -13,6 +13,8 @@ data_life <- read.csv("Life Expectancy Data.csv")
 
 source('chart1.R')
 
+source('chart2.R')
+
 ```
 
 ## Project title
@@ -131,9 +133,13 @@ chart_1
 
 ### Chart 2
 
-Include a chart
 
-Describe why you chose this chart and what information it reveals
+
+This chart highlights the countries with the highest and lowest life expectancies. It provides a visual representation of the gap in life expectancy across different countries.
+
+```{r chart_2, fig.width=12}
+chart_2
+```
 
 ### Chart 3
 
