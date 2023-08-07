@@ -145,9 +145,16 @@ chart_2
 
 ### Chart 3
 
-Include a chart
 
-Describe why you chose this chart and what information it reveals
+This scatter plot showcases the relationship between Gross Domestic Product (GDP) and Life Expectancy in 2015 for the five countries with the highest life expectancy: Slovenia, Denmark, Chile, Cyprus, and Japan.
+
+On the horizontal axis (x-axis), we have the GDP of the countries, which is a measure of their economic output. On the vertical axis (y-axis), we have the life expectancy, which is the average number of years a person is expected to live.
+
+Each point on the plot represents one of the five countries. The color of the point corresponds to the country it represents, as indicated by the legend at the bottom of the chart.
+
+A dashed line (the trend line) is included in the chart, showing the overall trend or relationship between GDP and life expectancy for these countries. This line was calculated using a method called linear regression.
+
+The chart provides a visual representation of the correlation between GDP and life expectancy in these countries. If the points and the trend line slope upwards, this would indicate a positive correlation between GDP and life expectancy, suggesting that countries with higher economic output tend to have longer average lifespans. However, one should not jump to conclusions about causation from this correlation. Other factors not included in this chart might also impact life expectancy.
 
 ```{r chart_3, fig.width=12}
 chart_3
