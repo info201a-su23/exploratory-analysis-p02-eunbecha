@@ -1,10 +1,4 @@
-library(ggplot2)
-library(dplyr)
-library(stringr)
-
-data_life <- read.csv("https://raw.githubusercontent.com/info201a-su23/exploratory-analysis-p02-eunbecha/main/Life%20Expectancy%20Data.csv?token=GHSAT0AAAAAACEYE7NU7DNYGQS6NMTEVUUGZGQJ2JA")
-
-# Compares the top 5 and smallest 5 country's life expectancy
+# Compares the country's life expectancy to schooling in 2015
 
 country_2015 <- data_life %>%
   filter(Year == 2015)

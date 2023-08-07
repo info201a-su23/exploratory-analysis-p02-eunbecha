@@ -6,8 +6,9 @@ output: html_document
 ```{r setup, include=FALSE}
 library(ggplot2)
 library(dplyr)
+library(stringr)
 
-data_life <- read.csv("https://raw.githubusercontent.com/info201a-su23/exploratory-analysis-p02-eunbecha/main/Life%20Expectancy%20Data.csv?token=GHSAT0AAAAAACEYE7NU7DNYGQS6NMTEVUUGZGQJ2JA")
+data_life <- read.csv("Life Expectancy Data.csv")
 
 
 source('chart1.R')
